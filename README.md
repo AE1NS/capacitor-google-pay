@@ -11,7 +11,8 @@ npm i capacitor-google-pay@git://github.com/AE1NS/capacitor-google-pay.git
 npx cap sync android
 ```
 
-Register the plugin in your main activity:
+Register the plugin:
+<project>/android/app/src/main/java/<...>/MainActivity.java
 ```java
 import de.aeins.capacitor.CapacitorGooglePay;
 
@@ -28,6 +29,17 @@ public class MainActivity extends BridgeActivity {
     }});
   }
 }
+```
+
+Enable the Google Pay API:
+<project>/android/app/src/main/AndroidManifest.xml
+```XML
+<manifest ...>
+    <application ...>
+        <!-- Add the following block -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
 ```
 
 ## Usage
