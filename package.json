@@ -1,6 +1,6 @@
 {
   "name": "capacitor-google-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Pay implementation for Capacitor",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -17,8 +17,8 @@
   "author": "A Eins Digital Innovation GmbH",
   "license": "MIT",
   "devDependencies": {
-    "@capacitor/android": "^2.4.5",
-    "@capacitor/core": "^2.4.5",
+    "@capacitor/android": "^3.0.0",
+    "@capacitor/core": "^3.0.0",
     "@ionic/prettier-config": "^1.0.0",
     "@ionic/swiftlint-config": "^1.0.0",
     "@rollup/plugin-node-resolve": "^8.1.0",
@@ -30,7 +30,7 @@
     "typescript": "~3.8.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^2.4.5"
+    "@capacitor/core": "^3.0.0"
   },
   "files": [
     "android/"
