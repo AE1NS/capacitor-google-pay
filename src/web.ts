@@ -1,7 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
 import { GooglePayPlugin } from './definitions';
 
-export class GoogleMapsWeb extends WebPlugin implements GooglePayPlugin {
+export class GooglePayWeb extends WebPlugin implements GooglePayPlugin {
   constructor() {
     super({
       name: 'GooglePay',
@@ -17,7 +17,7 @@ export class GoogleMapsWeb extends WebPlugin implements GooglePayPlugin {
     throw new Error('Method not implemented.');
   }
 
-  loadPaymentData(): Promise<string> {
+  loadPaymentData(): Promise<any> {
     throw new Error('Method not implemented.');
   }
 }

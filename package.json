@@ -33,6 +33,7 @@
     "@capacitor/core": "^3.0.0"
   },
   "files": [
+    "dist/",
     "android/"
   ],
   "keywords": [
