@@ -68,4 +68,4 @@ async pay() {
 | -               | -                  | -             |
 | configure       | {<br/>&nbsp;&nbsp;&nbsp;&nbsp;useProdEnvironment: <span style="color:blue">boolean</span><br/>} | <span style="color:blue">void</span> |
 | isReadyToPay    | [IsReadyToPayRequest](https://developers.google.com/pay/api/android/reference/request-objects#IsReadyToPayRequest) | <span style="color:blue">void</span> |
-| loadPaymentData | [PaymentDataRequest](https://developers.google.com/pay/api/android/reference/request-objects#PaymentDataRequest) | <span style="color:blue">string</span> (response token) |
+| loadPaymentData | [PaymentDataRequest](https://developers.google.com/pay/api/android/reference/request-objects#PaymentDataRequest) | [PaymentData](https://developers.google.com/pay/api/android/reference/response-objects#PaymentData) |
